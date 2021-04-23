@@ -50,7 +50,7 @@ export default function Home() {
               zIndex: 0,
               rotate: 180,
             }}
-            transition={{ duration: 2, ease: "anticipate" }}
+            transition={{ delay: 0.7, duration: 2, ease: "anticipate" }}
           ></motion.div>
 
           {/* Right */}
@@ -62,7 +62,7 @@ export default function Home() {
               scale: 1.5,
               zIndex: 0,
             }}
-            transition={{ duration: 2, ease: "anticipate" }}
+            transition={{ delay: 0.7, duration: 2, ease: "anticipate" }}
           ></motion.div>
         </div>
       </main>
