@@ -1,0 +1,23 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Manrope", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.heroContainer ::selection {
+  background: #313336;
+}
+
+@media (max-width: 900px) {
+    .roundDecorBlack {
+        z-index: 0 !important;
+        box-shadow: none !important;
+        background-color: #0E0F11 !important;
+    }
+}
