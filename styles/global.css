@@ -14,10 +14,35 @@ body {
   background: #313336;
 }
 
+.section2 {
+  background: linear-gradient(101.64deg, #7f00ff 33.6%, #e100ff 117.1%);
+}
+
+.rightBottomRoundDecor {
+    background-color: #B100FF;
+}
+
+.vertical-scroll-snap {
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  flex: none;
+  flex-flow: column nowrap;
+  height: 100vh;
+}
+
+.stacking-slide {
+  scroll-snap-align: start;
+  flex: none;
+  height: 100vh;
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+
 @media (max-width: 900px) {
-    .roundDecorBlack {
-        z-index: 0 !important;
-        box-shadow: none !important;
-        background-color: #0E0F11 !important;
-    }
+  .roundDecorBlack {
+    z-index: 0 !important;
+    box-shadow: none !important;
+    background-color: #0e0f11 !important;
+  }
 }

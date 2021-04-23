@@ -1,6 +1,8 @@
 import React from "react";
 import Head from "next/head";
 import { motion } from "framer-motion";
+// Components
+import Section2 from "@components/HomepageSections/Section2";
 
 /** eslint-ignore react/react-in-jsx-scope */
 export default function Home() {
@@ -12,9 +14,9 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.gstatic.com" />
       </Head>
 
-      <main>
+      <main className="vertical-scroll-snap">
         {/* hero section */}
-        <div className="heroContainer text-center bg-softBlack w-full h-screen flex flex-col justify-center relative overflow-hidden">
+        <div className="heroContainer stacking-slide text-center bg-softBlack w-full h-screen flex flex-col justify-center relative overflow-hidden">
           <div className="text-lightViolet font-bold text-md sm:text-lg md:text-xl z-10">
             The Next-Gen Digital Media Agency
           </div>
@@ -65,6 +67,8 @@ export default function Home() {
             transition={{ duration: 2, ease: "anticipate" }}
           ></motion.div>
         </div>
+
+        <Section2 />
       </main>
     </div>
   );

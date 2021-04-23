@@ -18,6 +18,10 @@ module.exports = {
       boxShadow: {
         blackLeft:
           "4px 47px 36px #000000, 4px 4px 28px rgba(255, 255, 255, 0.16)",
+        gradientLeft:
+          "4px 24px 36px #7200E2, 4px 4px 36px rgba(255, 255, 255, 0.06)",
+        gradientRight:
+          "-4px -24px 36px rgba(135, 0, 196, 0.36), -4px -4px 36px rgba(255, 255, 255, 0.06)",
       },
       spacing: {
         "128": "28rem",
@@ -33,6 +37,9 @@ module.exports = {
     fontFamily: {
       sans: ["Manrope", "Arial", "sans-serif"],
       hand: ["Caveat", "Arial"],
+    },
+    lineHeight: {
+      "12": "3.4rem",
     },
   },
   variants: {},
